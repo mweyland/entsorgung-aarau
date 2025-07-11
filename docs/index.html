@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Entsorgungskalender Aarau</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Entsorgungskalender Aarau</h1>
+
+  <form id="calendarForm" class="form-section" aria-describedby="calendar-description">
+    <p id="calendar-description">Auf dieser Seite kannst du Kalendereinträge nach Wahl für verschiedene Regionen und Entsorgungsangebote in Aarau erstellen. Neben Links für den Direktimport in den Google Kalender und in Microsoft Outlook 365 stellen wir auch eine URL für die Verwendung im Apple Kalender (oder einer anderen Kalendersoftware), wie auch den Kalender als Download zur Verfügung. Wird der Kalender als ICS-Datei heruntergeladen statt abonniert, muss er jährlich manuell erneuert werden.</p>
+
+    <p>Dieser Kalender ist als Alternative zur offiziellen App "EuseWerkhof" gedacht. Die App ist im <a href="https://play.google.com/store/apps/details?id=com.aarau.entsorgungsappaarau">Android Play Store</a> bzw. im <a href="https://apps.apple.com/ch/app/eusewerkhof/id6466623115">Apple App Store</a> erhältlich und ist für die meisten Benutzer die erste Wahl. Der Kalender auf dieser Webseite richtet sich an Benutzer, welche die App nicht benutzen möchten, für die die App nicht funktioniert oder die den Entsorgungskalender in einer Kalendersoftware abonnieren oder importieren möchten.</p>
+
+    <fieldset aria-labelledby="region-label">
+      <legend id="region-label"><strong>Region</strong></legend>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="region" value="Nord" onchange="updateURL()" /> Nord</label>
+        <label><input type="checkbox" name="region" value="Süd" onchange="updateURL()" /> Süd</label>
+        <label><input type="checkbox" name="region" value="Rohr" onchange="updateURL()" /> Rohr</label>
+      </div>
+    </fieldset>
+
+    <fieldset aria-labelledby="type-label" style="margin-top: 1rem;">
+      <legend id="type-label"><strong>Angebot</strong></legend>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="service" value="Kehricht" onchange="updateURL()" /> Kehricht</label>
+        <label><input type="checkbox" name="service" value="Grüngut" onchange="updateURL()" /> Grüngut</label>
+        <label><input type="checkbox" name="service" value="Papier" onchange="updateURL()" /> Papier</label>
+        <label><input type="checkbox" name="service" value="Karton" onchange="updateURL()" /> Karton</label>
+        <label><input type="checkbox" name="service" value="Metall" onchange="updateURL()" /> Metall</label>
+      </div>
+    </fieldset>
+
+    <div class="buttons">
+      <a id="googleLink" href="#" target="_new"><button type="button" id="googleButton" disabled>Im Google Kalender abonnieren</button></a>
+      <a id="outlookLink" href="#" target="_new"><button type="button" id="outlookButton" disabled>In Microsoft 365 Outlook abonnieren</button></a>
+      <a id="webcalLink" href="#" webcal><button type="button" id="webcalButton" disabled>webcal Link</button></a>
+      <a id="downloadLink" href="#" download><button type="button" id="downloadButton" disabled>Download ICS Datei</button></a>
+    </div>
+
+    <div class="form-footer" style="margin-top: 1rem;">
+      <div class="url-input-wrapper">
+        <input type="text" id="calendarUrl" readonly aria-label="Kalender-URL" placeholder="Kalender-Adresse erscheint hier..." />
+        <button type="button" class="copy-button" onclick="copyURL()" aria-label="URL Kopieren">📋</button>
+      </div>
+    </div>
+  </form>
+
+  <script src="code.js"></script>
+</body>
+</html>

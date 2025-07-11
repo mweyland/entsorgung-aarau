@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.form-section {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+  margin-top: 0;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 50px 0px 20px 0px;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.url-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.url-input-wrapper input {
+  width: 100%;
+  padding-right: 2.5rem; /* space for button */
+  box-sizing: border-box;
+}
+
+.copy-button {
+  position: absolute;
+  right: 0.3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+
+.copy-button:focus {
+  outline: 2px solid #007BFF;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (min-width: 600px) {
+  .form-footer {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  input[type="text"] {
+    flex: 1;
+  }
+}
