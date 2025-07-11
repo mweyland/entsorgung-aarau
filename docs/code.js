@@ -29,7 +29,7 @@ function updateURL() {
     googleLink.href = 'https://calendar.google.com/calendar/r?cid=webcal://' + encodeURIComponent(url);
     googleButton.disabled = false;
 
-    outlookLink.href = 'https://outlook.office.com/calendar/0/addfromweb?url=webcal://' + encodeURIComponent(url);
+    outlookLink.href = 'https://outlook.office.com/calendar/0/addfromweb?url=https://' + encodeURIComponent(url);
     outlookButton.disabled = false;
 
     webcalLink.href = 'webcal://' + url;
