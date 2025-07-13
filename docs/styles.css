@@ -43,6 +43,12 @@ fieldset {
   padding: 50px 0px 20px 0px;
 }
 
+/* Icons for google etc. that are part of the buttons */
+button > img {
+  height: 1em;
+  padding: 0px 10px 0px 0px;
+}
+
 .form-footer {
   display: flex;
   flex-direction: column;
