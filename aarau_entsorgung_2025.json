@@ -1,0 +1,1852 @@
+[
+    {
+        "date": "20250103",
+        "service": "Kehricht",
+        "region": null
+    },
+    {
+        "date": "20250106",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250107",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250107",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250108",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20250109",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250109",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250110",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250115",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250115",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250116",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250116",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250117",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250120",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250121",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250121",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250122",
+        "service": "Papier",
+        "region": "Nord"
+    },
+    {
+        "date": "20250123",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250123",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250124",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250129",
+        "service": "Papier",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250129",
+        "service": "Papier",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250130",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250130",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250131",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250203",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250204",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250204",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250205",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20250206",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250206",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250207",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250212",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250212",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250213",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250213",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250214",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250217",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250218",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250218",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250219",
+        "service": "H\u00e4ckseldienst",
+        "region": null
+    },
+    {
+        "date": "20250219",
+        "service": "Metall",
+        "region": "Nord"
+    },
+    {
+        "date": "20250220",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250220",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250221",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250224",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250225",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250225",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250226",
+        "service": "Metall",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250226",
+        "service": "Metall",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250227",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250227",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250228",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250301",
+        "service": "Flohmarkt",
+        "region": null
+    },
+    {
+        "date": "20250303",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250304",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250304",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250305",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20250306",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250306",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250307",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250310",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250311",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250311",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250312",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250312",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250313",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250313",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250314",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250317",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250318",
+        "service": "Haushaltsonderabf\u00e4lle",
+        "region": null
+    },
+    {
+        "date": "20250318",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250318",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250319",
+        "service": "H\u00e4ckseldienst",
+        "region": null
+    },
+    {
+        "date": "20250319",
+        "service": "Papier",
+        "region": "Nord"
+    },
+    {
+        "date": "20250320",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250320",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250321",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250324",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250325",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250325",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250326",
+        "service": "Papier",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250326",
+        "service": "Papier",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250327",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250327",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250328",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250331",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250401",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250401",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250402",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20250403",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250403",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250404",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250405",
+        "service": "Flohmarkt",
+        "region": null
+    },
+    {
+        "date": "20250407",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250408",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250408",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250409",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250409",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250410",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250410",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250411",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250414",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250415",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250415",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250416",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250417",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250417",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250422",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250422",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250423",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250424",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250424",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250425",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250428",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250429",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250429",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250430",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250430",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250502",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250503",
+        "service": "Flohmarkt",
+        "region": null
+    },
+    {
+        "date": "20250505",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250506",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250506",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250507",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20250508",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250508",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250509",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250512",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250513",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250513",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250514",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250514",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250515",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250515",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250516",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250519",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250520",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250520",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250521",
+        "service": "Papier",
+        "region": "Nord"
+    },
+    {
+        "date": "20250522",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250522",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250523",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250526",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250527",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250527",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250528",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250528",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250530",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250602",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250603",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250603",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250604",
+        "service": "Papier",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250604",
+        "service": "Papier",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250605",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250605",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250606",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250607",
+        "service": "Flohmarkt",
+        "region": null
+    },
+    {
+        "date": "20250610",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250610",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250611",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250612",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250612",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250613",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250616",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250617",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250617",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250618",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20250619",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250619",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250620",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250623",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250624",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250624",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250625",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250625",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250626",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250626",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250627",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250630",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250701",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250701",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250702",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250703",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250703",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250705",
+        "service": "Flohmarkt",
+        "region": null
+    },
+    {
+        "date": "20250707",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250708",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250708",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250709",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20250710",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250710",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250711",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250714",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250715",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250715",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250716",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250716",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250717",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250717",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250718",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250721",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250722",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250722",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250723",
+        "service": "Papier",
+        "region": "Nord"
+    },
+    {
+        "date": "20250724",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250724",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250725",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250728",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250729",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250729",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250730",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250731",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250731",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250802",
+        "service": "Flohmarkt",
+        "region": null
+    },
+    {
+        "date": "20250804",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250805",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250805",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250806",
+        "service": "Papier",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250806",
+        "service": "Papier",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250807",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250807",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250808",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250811",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250812",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250812",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250813",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20250814",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250814",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250815",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250816",
+        "service": "Tag der offenen Tore",
+        "region": null
+    },
+    {
+        "date": "20250818",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250819",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250819",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250820",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250820",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250821",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250821",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250822",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250825",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250826",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250826",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250827",
+        "service": "Metall",
+        "region": "Nord"
+    },
+    {
+        "date": "20250828",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250828",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250829",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250901",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250902",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250902",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250903",
+        "service": "Metall",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250903",
+        "service": "Metall",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250904",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250904",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250905",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250906",
+        "service": "Flohmarkt",
+        "region": null
+    },
+    {
+        "date": "20250908",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250909",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250909",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250910",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20250911",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250911",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250912",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250915",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250916",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250916",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250917",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250917",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250918",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250918",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250919",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250922",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250923",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250923",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250924",
+        "service": "Papier",
+        "region": "Nord"
+    },
+    {
+        "date": "20250925",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250925",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20250926",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20250929",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20250930",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20250930",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251001",
+        "service": "Papier",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251001",
+        "service": "Papier",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251002",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251002",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251003",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251004",
+        "service": "Flohmarkt",
+        "region": null
+    },
+    {
+        "date": "20251006",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251007",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251007",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251008",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20251009",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251009",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251010",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251013",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251014",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251014",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251015",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251015",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251016",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251016",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251017",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251020",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251021",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251021",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251022",
+        "service": "H\u00e4ckseldienst",
+        "region": null
+    },
+    {
+        "date": "20251023",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251023",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251024",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251027",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251028",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251028",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251030",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251030",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251031",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251103",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251104",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251104",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251106",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251106",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251107",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251110",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251111",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251111",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251112",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20251113",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251113",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251114",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251117",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251118",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251118",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251119",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251119",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251120",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251120",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251121",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251124",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251125",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251125",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251126",
+        "service": "H\u00e4ckseldienst",
+        "region": null
+    },
+    {
+        "date": "20251126",
+        "service": "Papier",
+        "region": "Nord"
+    },
+    {
+        "date": "20251127",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251127",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251128",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251201",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251202",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251202",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251203",
+        "service": "Papier",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251203",
+        "service": "Papier",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251204",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251204",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251205",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251210",
+        "service": "Karton",
+        "region": "Nord"
+    },
+    {
+        "date": "20251211",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251211",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251212",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251215",
+        "service": "Gr\u00fcngut",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251216",
+        "service": "Gr\u00fcngut",
+        "region": "Nord"
+    },
+    {
+        "date": "20251216",
+        "service": "Gr\u00fcngut",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251217",
+        "service": "Karton",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251217",
+        "service": "Karton",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251218",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251218",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251219",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251223",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251223",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251224",
+        "service": "Kehricht",
+        "region": "Nord"
+    },
+    {
+        "date": "20251229",
+        "service": "Gr\u00fcngut",
+        "region": null
+    },
+    {
+        "date": "20251230",
+        "service": "Kehricht",
+        "region": "S\u00fcd"
+    },
+    {
+        "date": "20251230",
+        "service": "Kehricht",
+        "region": "Rohr"
+    },
+    {
+        "date": "20251231",
+        "service": "Kehricht",
+        "region": "Nord"
+    }
+]
