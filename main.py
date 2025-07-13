@@ -6,11 +6,10 @@ from uuid import uuid4
 import datetime
 
 def calendar(request: flask.Request) -> flask.Response:
-    #params = event.get('queryStringParameters') or {}
-    #services = params.get('services').split(',')
-    #regions = params.get('regions').split(',')
-    services = ['Papier', 'Karton', 'Häckseldienst', 'Metall']
-    regions = ['Nord',]
+    # We assume that the 'services' and 'regions' GET parameters exist. If they are meeting,
+    # the following lookups will error but this is OK.
+    services = request.args.get('services').split(',')
+    regions = request.args.get('regions').split(',')
 
     with open('aarau_entsorgung_2025.json', 'r') as file:
         data = json.load(file)
