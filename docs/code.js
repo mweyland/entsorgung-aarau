@@ -54,7 +54,8 @@ function generateCalendarURL(regions, services) {
 
   const regionParam = regions.map(encodeURIComponent).join(',');
   const serviceParam = services.map(encodeURIComponent).join(',');
-  return `y4vqyvdr69.execute-api.eu-central-1.amazonaws.com/calendar?regions=${regionParam}&services=${serviceParam}`;
+  const BASE_URL = 'y4vqyvdr69.execute-api.eu-central-1.amazonaws.com';
+  return `${BASE_URL}/calendar?regions=${regionParam}&services=${serviceParam}`;
 }
 
 // Copy calendarUrl content to clipboard
