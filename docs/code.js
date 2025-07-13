@@ -54,7 +54,7 @@ function generateCalendarURL(regions, services) {
 
   const regionParam = regions.map(encodeURIComponent).join(',');
   const serviceParam = services.map(encodeURIComponent).join(',');
-  const BASE_URL = 'y4vqyvdr69.execute-api.eu-central-1.amazonaws.com';
+  const BASE_URL = 'entsorgung-aarau-760482908713.europe-west6.run.app';
   return `${BASE_URL}/calendar?regions=${regionParam}&services=${serviceParam}`;
 }
 
