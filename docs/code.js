@@ -26,10 +26,10 @@ function updateURL() {
     // Populate URLs and activate buttons
     urlField.value = 'webcal://' + url;
 
-    googleLink.href = 'https://calendar.google.com/calendar/r?cid=webcal://' + encodeURIComponent(url);
+    googleLink.href = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent('webcal://' + url);
     googleButton.disabled = false;
 
-    outlookLink.href = 'https://outlook.office.com/calendar/0/addfromweb?url=https://' + encodeURIComponent(url);
+    outlookLink.href = 'https://outlook.office.com/calendar/0/addfromweb?url=' + encodeURIComponent('https://' + url);
     outlookButton.disabled = false;
 
     webcalLink.href = 'webcal://' + url;
