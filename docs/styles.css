@@ -43,10 +43,43 @@ fieldset {
   padding: 50px 0px 20px 0px;
 }
 
+a.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: black;
+  background-color: #eeeeee;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+a.button:hover {
+  background-color: #dbe4f0;
+  border-color: #0056b3;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Subtle glow */
+}
+
+a.button.disabled {
+  background-color: #fdfdfd;
+  color: #aaaaaa;
+  border-color: #aaaaaa;
+  pointer-events: none;
+  cursor: default;
+}
+
 /* Icons for google etc. that are part of the buttons */
-button > img {
+a.button > img {
   height: 1em;
   padding: 0px 10px 0px 0px;
+}
+
+/* Grayscale icons for disabled buttons */
+a.button.disabled > img {
+  filter: grayscale(100%);
 }
 
 .form-footer {

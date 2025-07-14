@@ -10,16 +10,9 @@ function updateURL() {
   // fields, buttons and <a> elements for links...
   const urlField = document.getElementById('calendarUrl');
 
-  const googleButton = document.getElementById('googleButton');
   const googleLink = document.getElementById('googleLink');
-
-  const outlookButton = document.getElementById('outlookButton');
   const outlookLink = document.getElementById('outlookLink');
-
-  const webcalButton = document.getElementById('webcalButton');
   const webcalLink = document.getElementById('webcalLink');
-
-  const downloadButton = document.getElementById('downloadButton');
   const downloadLink = document.getElementById('downloadLink');
 
   if (url) {
@@ -27,24 +20,22 @@ function updateURL() {
     urlField.value = 'webcal://' + url;
 
     googleLink.href = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent('webcal://' + url);
-    googleButton.disabled = false;
-
     outlookLink.href = 'https://outlook.office.com/calendar/0/addfromweb?url=' + encodeURIComponent('https://' + url);
-    outlookButton.disabled = false;
-
     webcalLink.href = 'webcal://' + url;
-    webcalButton.disabled = false;
-
     downloadLink.href = 'https://' + url;
-    downloadButton.disabled = false;
+
+    googleLink.classList.remove('disabled');
+    outlookLink.classList.remove('disabled');
+    webcalLink.classList.remove('disabled');
+    downloadLink.classList.remove('disabled');
   } else {
     // Disable buttons on incomplete selection
     urlField.value = '';
     downloadLink.href = '#';
-    googleButton.disabled = true;
-    outlookButton.disabled = true;
-    webcalButton.disabled = true;
-    downloadButton.disabled = true;
+    googleLink.classList.add('disabled');
+    outlookLink.classList.add('disabled');
+    webcalLink.classList.add('disabled');
+    downloadLink.classList.add('disabled');
   }
 }
 
