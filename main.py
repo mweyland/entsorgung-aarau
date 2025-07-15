@@ -38,7 +38,7 @@ def calendar(request: flask.Request) -> flask.Response:
     #last_modified = datetime.datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT")
     headers = {
         'Content-Type': 'text/calendar; charset=UTF-8',
-        'Content-Disposition': 'attachment; filename="enstorgung_aarau.ics"',
+        'Content-Disposition': 'attachment; filename="entsorgung_aarau.ics"',
     }
 
     return flask.Response(c.to_ical(), 200, headers)
