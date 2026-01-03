@@ -11,7 +11,7 @@ def calendar(request: flask.Request) -> flask.Response:
     services = request.args.get('services').split(',')
     regions = request.args.get('regions').split(',')
 
-    with open('aarau_entsorgung_2025.json', 'r') as file:
+    with open('aarau_entsorgung_2026.json', 'r') as file:
         data = json.load(file)
         c = Calendar()
         c.uid = uuid4()
