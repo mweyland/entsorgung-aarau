@@ -22,18 +22,16 @@ def calendar(request: flask.Request) -> flask.Response:
         c.add('version', '2.0')
 
         for event in data:
-            if event['service'] in services:
-                if event['region'] is None:
-                    e = Event(summary = event['service'], uid=uuid4())
-                    e['dtstart;value=date'] = event['date']
-                    c.add_component(e)
-                if event['region'] in regions:
-                    summary = event['service']
-                    if len(regions) > 1:
+            # Create event for services we subscribe to if they are not specific to a region (i.e. None)
+            # or if they are for regions that we subscribe to.
+            if event['service'] in services and (event['region'] is None or event['region'] in regions):
+                summary = event['service']
+                if event['region'] in regions and len(regions) > 1:
                         summary += f" ({event['region']})"
-                    e = Event(summary = summary, uid=uuid4())
-                    e['dtstart;value=date'] = event['date']
-                    c.add_component(e)
+
+                e = Event(summary = summary, uid=uuid4())
+                e['dtstart;value=date'] = event['date']
+                c.add_component(e)
 
     #last_modified = datetime.datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT")
     headers = {
