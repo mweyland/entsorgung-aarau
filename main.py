@@ -6,7 +6,7 @@ from uuid import uuid4
 import datetime
 
 def calendar(request: flask.Request) -> flask.Response:
-    # We assume that the 'services' and 'regions' GET parameters exist. If they are meeting,
+    # We assume that the 'services' and 'regions' GET parameters exist. If they are missing,
     # the following lookups will error but this is OK.
     services = request.args.get('services').split(',')
     regions = request.args.get('regions').split(',')
@@ -18,7 +18,6 @@ def calendar(request: flask.Request) -> flask.Response:
         c.add('name', 'Entsorgungskalender Aarau')
         c.add('X-WR-CALNAME', 'Entsorgungskalender Aarau')
         c.add('prodid', '-//Entsorgungskalender Aarau//mweyland.github.io/entsorgung-aarau/')
-        #c.add('prodid', '-//Entsorgungskalender Aarau//FIXME/')
         c.add('version', '2.0')
 
         for event in data:
