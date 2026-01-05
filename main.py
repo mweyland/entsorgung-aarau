@@ -1,7 +1,7 @@
 import flask
 
 import json
-from icalendar import Calendar, Event
+from icalendar import Calendar, Event, Alarm
 from uuid import uuid4
 import datetime
 
@@ -10,6 +10,14 @@ def calendar(request: flask.Request) -> flask.Response:
     # the following lookups will error but this is OK.
     services = request.args.get('services').split(',')
     regions = request.args.get('regions').split(',')
+
+    # Reminder parameters are options. If missing, None is returned. Otherwise,
+    # the value is assumed to be an integer in minutes representing the offset
+    # in minutes from midnight of the day of the event. Thus, positive offsets
+    # are on the day of the event (makes sense for, e.g. 5 AM) and negative offsets
+    # are on days prior to the event.
+    reminder1 = request.args.get('reminder1')
+    reminder2 = request.args.get('reminder2')
 
     with open('aarau_entsorgung_2026.json', 'r') as file:
         data = json.load(file)
@@ -30,6 +38,14 @@ def calendar(request: flask.Request) -> flask.Response:
 
                 e = Event(summary = summary, uid=uuid4())
                 e['dtstart;value=date'] = event['date']
+                for r in reminder1, reminder2:
+                    if r is not None:
+                        alarm = Alarm()
+                        alarm.add('action', 'DISPLAY')
+                        date = datetime.datetime.strptime(event['date'], '%Y%m%d')
+                        alarm.add('description', f'{datetime.datetime.strftime(date, "%-d.%-m")}: {summary}')
+                        alarm.add('trigger', datetime.timedelta(minutes=int(r)))
+                        e.add_component(alarm)
                 c.add_component(e)
 
     #last_modified = datetime.datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT")
