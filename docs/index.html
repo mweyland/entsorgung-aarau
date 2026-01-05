@@ -41,6 +41,29 @@
       </div>
     </fieldset>
 
+    <fieldset aria-labelledby="reminder-label" style="margin-top: 1rem;">
+      <legend id="reminder-label"><strong>Erinnerungen</strong></legend>
+        <div class="reminder-line" style="margin-bottom: 0.5rem;">
+          <label><input id="reminder1-checkbox" type="checkbox" name="reminder-enable" value="reminder1" onchange="updateURL()" />Erinnerung 1:</label>
+          <select id="reminder1-day" name="reminder1-day" onchange="updateURL()">
+            <option value="0">Am Tag der Entsorgung</option>
+            <option value="1" selected>Am Vortag</option>
+            <option value="2">Zwei Tage im Voraus</option>
+          </select>
+          <input id="reminder1-time" type="time" name="reminder1-time" onchange="updateURL()"/>
+       </div>
+
+       <div class="reminder-line">
+          <label><input id="reminder2-checkbox" type="checkbox" name="reminder-enable" value="reminer2" onchange="updateURL()" />Erinnerung 2:</label>
+          <select id="reminder2-day" name="reminder2-day" onchange="updateURL()">
+            <option value="0">Am Tag der Entsorgung</option>
+            <option value="1" selected>Am Vortag</option>
+            <option value="2">Zwei Tage im Voraus</option>
+          </select>
+          <input id="reminder2-time" type="time" name="reminder2-time" onchange="updateURL()"/>
+  </div>
+    </fieldset>
+
     <div class="buttons">
       <!-- TODO: Do not nest <button> inside <a> -->
       <a id="googleLink" class="button" href="#" target="_blank"><img alt="Google icon" src="google.svg">Im Google Kalender abonnieren</a>

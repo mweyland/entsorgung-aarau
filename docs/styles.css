@@ -35,6 +35,14 @@ fieldset {
   cursor: pointer;
 }
 
+.reminder-line {
+  margin-bottom: 0.5rem;
+}
+
+.reminder-line label {
+  cursor: pointer;
+}
+
 .buttons {
   display: flex;
   flex-wrap: wrap;
