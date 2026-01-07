@@ -15,6 +15,8 @@ function updateURL() {
   const webcalLink = document.getElementById('webcalLink');
   const downloadLink = document.getElementById('downloadLink');
 
+  enableDisableReminders();
+
   if (url) {
     // Populate URLs and activate buttons
     urlField.value = 'webcal://' + url;
@@ -39,14 +41,58 @@ function updateURL() {
   }
 }
 
+// Enable reminder controls when respective checkbox is on
+function enableDisableReminders() {
+  const r1Enabled = document.getElementById('reminder1-checkbox').checked;
+  document.getElementById('reminder1-day').disabled = !r1Enabled;
+  document.getElementById('reminder1-time').disabled = !r1Enabled;
+
+  const r2Enabled = document.getElementById('reminder2-checkbox').checked;
+  document.getElementById('reminder2-day').disabled = !r2Enabled;
+  document.getElementById('reminder2-time').disabled = !r2Enabled;
+}
+
+// Returns a pair of values corresponding to the two reminder checkboxes.
+// If checkbox not checked, value is null
+// Otherwise, value is the alarm offset in minutes from the start of the event date.
+// Positive offsets are into the day, negative offsets are the day(s) before.
+function getReminderValues() {
+    let ret1 = null;
+    let ret2 = null;
+    if(document.getElementById('reminder1-checkbox').checked) {
+      const [hours, minutes] = document.getElementById('reminder1-time').value.split(':').map(Number);
+      ret1 = hours*60+minutes - 24*60*document.getElementById('reminder1-day').value;
+    }
+    if(document.getElementById('reminder2-checkbox').checked) {
+      const [hours, minutes] = document.getElementById('reminder2-time').value.split(':').map(Number);
+      ret2 = hours*60+minutes - 24*60*document.getElementById('reminder2-day').value;
+    }
+    return [ret1, ret2];
+}
+
 // Generate calendar URL without protocol prefix
 function generateCalendarURL(regions, services) {
-  if (regions.length === 0 || services.length === 0) return null;
+  // reminderTest is true if one of the two checkboxes is checked while its time is unset
+  const reminderTest = (document.getElementById('reminder1-checkbox').checked && document.getElementById('reminder1-time').value === "") || (document.getElementById('reminder2-checkbox').checked && document.getElementById('reminder2-time').value ==="");
+  if (regions.length === 0 || services.length === 0 || reminderTest) return null;
 
-  const regionParam = regions.map(encodeURIComponent).join(',');
-  const serviceParam = services.map(encodeURIComponent).join(',');
+  const params = new URLSearchParams({
+    regions: regions.join(','),
+    services: services.join(',')
+  });
+
+  const reminderValues = getReminderValues();
+  if(reminderValues[0] !== null) {
+    params.append('reminder1', reminderValues[0]);
+  }
+
+  if(reminderValues[1] !== null) {
+    params.append('reminder2', reminderValues[1]);
+  }
+
   const BASE_URL = 'entsorgung-aarau-760482908713.europe-west6.run.app';
-  return `${BASE_URL}/calendar?regions=${regionParam}&services=${serviceParam}`;
+  return `${BASE_URL}/calendar?${params.toString()}`;
+
 }
 
 // Copy calendarUrl content to clipboard
